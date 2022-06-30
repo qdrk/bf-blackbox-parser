@@ -1,0 +1,5 @@
+export const FIRMWARE_TYPE_UNKNOWN = 0;
+export const FIRMWARE_TYPE_BASEFLIGHT = 1;
+export const FIRMWARE_TYPE_CLEANFLIGHT = 2;
+export const FIRMWARE_TYPE_BETAFLIGHT = 3;
+export const FIRMWARE_TYPE_INAV = 4;
