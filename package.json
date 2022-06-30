@@ -1,0 +1,79 @@
+{
+  "name": "@dronesitter/bf-blackbox-parser",
+  "version": "1.0.0",
+  "description": "Log parser for bf blackbox logs",
+  "main": "build/index.js",
+  "types": "build/types/index.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest --silent",
+    "coverage": "npm run test -- --coverage",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dronesitter/bf-blackbox-parser"
+  },
+  "author": "dronesitter <mirikle.wang@gmail.com> (https://github.com/dronesitter)",
+  "license": "GPL 3.0",
+  "bugs": {
+    "url": "https://github.com/dronesitter/bf-blackbox-parser/issues"
+  },
+  "homepage": "https://github.com/dronesitter/bf-blackbox-parser",
+  "keywords": [
+    "library",
+    "starter",
+    "es6"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/plugin-transform-typescript": "^7.18.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.6",
+    "@types/jest": "^28.1.3",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "babel-preset-minify": "^0.5.2",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.32.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "prettier": "^2.7.1",
+    "prettier-webpack-plugin": "^1.2.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.3",
+    "typescript": "^4.7.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "4.9.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/scripts/testMock.js",
+      "\\.(css|less)$": "<rootDir>/scripts/testMock.js"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ]
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
