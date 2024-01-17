@@ -4973,10 +4973,10 @@ prettier-webpack-plugin@^1.2.0:
   resolved "https://registry.yarnpkg.com/prettier-webpack-plugin/-/prettier-webpack-plugin-1.2.0.tgz#4a5635f054741160936c7f509f0a9b1f928e5550"
   integrity sha512-icoIPxDpOo/q7SUCHSW152dCr83z7QS/6s2V3phweKu1bfJcXSObVAq/Z8OeSX7ykuXrcV2UpZbfljRI2rIOMg==
 
-prettier@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
-  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
+prettier@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.3.tgz#98501d99141a9a10d5ceaf74cf39c8b7cbddd380"
+  integrity sha512-QNhUTBq+mqt1oH1dTfY3phOKNhcDdJkfttHI6u0kj7M2+c+7fmNKlgh2GhnHiqMcbxJ+a0j2igz/2jfl9QKLuw==
 
 pretty-error@^4.0.0:
   version "4.0.0"
